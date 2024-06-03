@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JEDS FASHION</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <img src="images/Circular Logo.png" alt="images/Circular Logo.png" />
+        <div class="nav-links" id="navLinks">
+          <i class="bi bi-x-circle-fill" style="color: aliceblue; "onclick="hideMenu()"></i>
+          <ul>
+              <li><a href="index.html" style="font-weight: 500; font-size: large">HOME</a></li>
+              <li><a href="about.html" style="font-weight: 500; font-size: large">ABOUT</a></li>
+              <li><a href="services.html" style="font-weight: 500; font-size: large">SERVICES</a></li>
+              <li><a href="https://wa.me/2347065518443" style="font-weight: 500; font-size: large">CONTACT</a></li>
+              <li><a href="blog.html" style="font-weight: 500; font-size: large">BLOG</a></li>
+          </ul>
+        </div>
+        <i class="bi bi-justify" style="color: antiquewhite;" onclick="showMenu()"></i>
+      </nav>
+      <h1>What Is The Difference Between <br> a Tailor & a Fashion Designer?</h1>
+    </section>
+
+    <!----Blog Content----->
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="images/26.jpg">
+          <h3>Tailor vs Fashion Designer</h3>
+          <p>The main difference between a Nigerian tailor and fashion designer is that tailors produce, repair, and alter clothes, whereas fashion designers design new clothing patterns and styles.</p> 
+          <p>Tailors and fashion designers are two common professions in the field of fashion. Although both types of professionals help clients to make new garments, there is a distinct difference between them based on their designs, training, and other functions.</p> 
+          <p>Tailors usually take sewing patterns and designs from their clients, fashion magazines, or from the internet, but fashion designers create brand new and original clothes under new brands and labels.</p> 
+          <p>Although tailors have training in sewing, fashion designers have special training in the field of fashion designing. At the same time, fashion designers may have worked as apprentices before they start working as professional fashion </p>
+
+
+          <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+              <input type="text" placeholder="Enter Name">
+              <input type="email" placeholder="Enter Email">
+              <textarea rows="5" placeholder="Your comment"></textarea>
+              <button type="submit" class="blog-right" >POST COMMENT</button>
+            </form>
+          </div>
+        </div>
+        <div class="blog-right">
+        <h3>Post Categories</h3>
+        <div>
+          <span>Tailor vs Fashion Designer</span>
+          <span>5</span>
+        </div>
+    </section>
+
+    
+    <!-- JavaScript for Toggle Menu-->
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

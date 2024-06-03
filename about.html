@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JEDS FASHION</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <img src="images/Circular Logo.png" alt="images/Circular Logo.png" />
+        <div class="nav-links" id="navLinks">
+          <ul>
+            <i class="bi bi-x-circle-fill" style="color: aliceblue; "onclick="hideMenu()"></i>
+              <li><a href="index.html" style="font-weight: 500; font-size: large">HOME</a></li>
+              <li><a href="about.html" style="font-weight: 500; font-size: large">ABOUT</a></li>
+              <li><a href="services.html" style="font-weight: 500; font-size: large">SERVICES</a></li>
+              <li><a href="https://wa.me/2347065518443" style="font-weight: 500; font-size: large">CONTACT</a></li>
+              <li><a href="blog.html" style="font-weight: 500; font-size: large">BLOG</a></li>
+            </li>
+          </ul>
+        </div>
+        <i class="bi bi-justify" style="color: antiquewhite;" onclick="showMenu()"></i>
+      </nav>
+      <h1>About Us</h1>
+    </section>
+
+    <!----about Us----->
+    <section>
+      <div class="jeds-image">
+        <img src="Images/dave.jpg">
+        <div class="jeds-ceo">
+          <h3>JEDS FASHION CEO</h3>
+      </div>
+        
+    </section>
+
+    <section class="blog-content">
+      <h1>Vision Statement</h1>
+      <p>
+      Our vision is to be the best brand that provides quality clothing that meet local <br> demands while also competing favourably with foreign fashion brands. We <br>create clothes that combine simplicity with elegance, all within a practical <br>and realistic budget. </p>
+    </section>
+    
+    <section class="blog-content">
+      <h1>Who We Are</h1>
+      <p>We specialize in making custom fashion items for men, women, and children <br> from the finest fabrics available on the market today! JEDS FASHION is one of <br> the best brand in Nigeria. We are a team with expertise and creativity that will<br>  make your custom fashion items from what fabric is available today!</p>
+
+    </section>
+
+    <section class="blog-content">
+      <h1>AFFORDABLE AND DURABLE <br>QUALITY PRODUCTS.</h1>
+      <p>We deliver high quality products that are affordable, yet made of durable <br>materials with our custom-made clothing, our clients will be able to find their <br>desired fabrics, colours, and styles. We personally hand-stitch every article of <br> clothing and focus on providing a high level of customer service, which leads <br> to customer satisfaction.</p>
+    </section>
+    <!-- JavaScript for Toggle Menu-->
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
