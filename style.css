@@ -8,7 +8,7 @@
   min-height: 100vh;
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../images/background3.webp");
+    url("./images/background3.WEBP");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -281,7 +281,7 @@ h3 {
 .cta {
   margin: 100px auto;
   width: 88%;
-  background-image: url("../images/black.jpg");
+  background-image: url("./images/black.JPG");
   background-position: center;
   background-size: cover;
   border-radius: 10px;
@@ -319,7 +319,7 @@ h3 {
   height: 50vh;
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../images/background3.webp");
+    url("./images/background3.WEBP");
   background-position: center;
   background-size: cover;
   text-align: center;
