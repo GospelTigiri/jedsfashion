@@ -147,7 +147,7 @@ p {
 }
 .design-col {
   flex-basis: 31%;
-  background: #fff;
+  background: #e2c99b;
   border-radius: 10px;
   margin-bottom: 5%;
   padding: 20px 12px;
@@ -184,6 +184,8 @@ h3 {
 .services-col img {
   width: 100%;
   display: block;
+  aspect-ratio: 4/5;
+  object-fit: cover;
 }
 .material {
   background: transparent;
@@ -226,6 +228,8 @@ h3 {
 .fashion-col img {
   width: 100%;
   border-radius: 10px;
+  aspect-ratio: 4/5;
+  object-fit: cover;
 }
 .fashion-col p {
   padding: 0;
